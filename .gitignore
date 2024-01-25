@@ -129,6 +129,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# ignoré le dossier venv
 venv/
 node_modules
