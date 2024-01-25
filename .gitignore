@@ -132,4 +132,3 @@ dist
 # ignoré le dossier venv
 venv/
 node_modules
-```
