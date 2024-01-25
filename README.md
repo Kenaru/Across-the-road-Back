@@ -2,7 +2,7 @@
 ESGI2 annual project Across the road
 
 <!-- Requirement -->
-- installer NodeJS : https://nodejs.org/en/download/
+- installer NodeJS : https://nodejs.org/en/download/ \n
 npm install dotenv@^16.3.1
 npm install express@^4.18.2
 npm install mysql2@^3.6.3
