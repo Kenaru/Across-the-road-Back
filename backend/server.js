@@ -3,7 +3,8 @@ const cors = require('cors');
 const db = require('./config/db'); // Chemin vers votre fichier de configuration de la base de données
 const get = require('./routes/get.routes'); // Chemin vers votre fichier de routes
 const post = require('./routes/post.routes'); // Chemin vers votre fichier de routes
-
+const connection = require('./routes/connection.routes'); // Chemin vers votre fichier de routes
+const jwtMiddleware = require('./middleware/jwtMiddleware');
 
 const app = express();
 const port = 5000;
@@ -14,9 +15,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Utilisez le middleware JWT pour protéger la route GET
+app.use('/api/get', jwtMiddleware);
+
 // Routes et autres configurations...
 app.use('/api/get', get);
-app.use('/api/post', post);
+app.use('/api/connection', connection);
 
 // Lancer le serveur
 app.listen(port, () => console.log('Le serveur fonctionne sur le port ' + port));
