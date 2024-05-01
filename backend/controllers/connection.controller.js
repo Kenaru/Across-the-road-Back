@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 
 exports.login_user = async (req, res) => {
     const { mail, password } = req.body;
-
+    console.log(mail, password);
     try {
         const [rows] = await db.query('SELECT * FROM Users WHERE mail = ?', [mail]);
         if (rows.length > 0) {

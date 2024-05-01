@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const db = require('./config/db'); // Chemin vers votre fichier de configuration de la base de données
 const get = require('./routes/get.routes'); // Chemin vers votre fichier de routes
-const post = require('./routes/post.routes'); // Chemin vers votre fichier de routes
+const website = require('./routes/website.routes'); // Chemin vers votre fichier de routes
 const connection = require('./routes/connection.routes'); // Chemin vers votre fichier de routes
 const jwtMiddleware = require('./middleware/jwtMiddleware');
 
@@ -20,6 +20,7 @@ app.use('/api/get', jwtMiddleware);
 
 // Routes et autres configurations...
 app.use('/api/get', get);
+app.use('/api/website', website);
 app.use('/api/connection', connection);
 
 // Lancer le serveur
