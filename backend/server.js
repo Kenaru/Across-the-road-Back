@@ -1,23 +1,32 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./config/db'); // Chemin vers votre fichier de configuration de la base de données
-const get = require('./routes/get.routes'); // Chemin vers votre fichier de routes
-const post = require('./routes/post.routes'); // Chemin vers votre fichier de routes
-
+const bodyParser = require('body-parser');
+const uploadRouter = require('./config/upload'); // Correct path for uploadRouter
+const apiRoutes = require('./routes/routes');
+const path = require('path');
 
 const app = express();
-const port = 5000;
 
-app.use(cors());
+// Configure body-parser to handle larger payloads
+app.use(bodyParser.json({ limit: '50mb' }));
+app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
-// Middleware
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+// CORS configuration
+app.use(cors({
+    origin: 'http://localhost:3000',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    preflightContinue: false,
+    optionsSuccessStatus: 204
+}));
 
-// Routes et autres configurations...
-app.use('/api/get', get);
-app.use('/api/post', post);
+// Serve static files from the uploads directory
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Lancer le serveur
-app.listen(port, () => console.log('Le serveur fonctionne sur le port ' + port));
-console.log('Lien de connexion au serveur http://127.0.0.1:5500');
+// Your other middlewares and routes
+app.use('/api', apiRoutes);
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});

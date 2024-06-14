@@ -406,7 +406,7 @@ ALTER TABLE `Theme`
 --
 -- Index pour la table `tokens`
 --
-ALTER TABLE `tokens`
+ALTER TABLE Tokens
   ADD PRIMARY KEY (`id`),
   ADD KEY `user_id` (`user_id`);
 
@@ -472,7 +472,7 @@ ALTER TABLE `sessions`
 --
 -- AUTO_INCREMENT pour la table `tokens`
 --
-ALTER TABLE `tokens`
+ALTER TABLE Tokens
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -566,7 +566,7 @@ ALTER TABLE `Theme`
 --
 -- Contraintes pour la table `tokens`
 --
-ALTER TABLE `tokens`
+ALTER TABLE Tokens
   ADD CONSTRAINT `tokens_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `Users` (`id`);
 COMMIT;
 
