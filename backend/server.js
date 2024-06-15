@@ -1,54 +1,28 @@
 const express = require('express');
 const cors = require('cors');
-const bodyParser = require('body-parser');
-const path = require('path');
-const apiRoutes = require('./routes/routes');
-const multer = require('multer');
-const fs = require('fs');
+const db = require('./config/db'); // Chemin vers votre fichier de configuration de la base de données
+const get = require('./routes/get.routes'); // Chemin vers votre fichier de routes
+const website = require('./routes/website.routes'); // Chemin vers votre fichier de routes
+const connection = require('./routes/connection.routes'); // Chemin vers votre fichier de routes
+const jwtMiddleware = require('./middleware/jwtMiddleware');
 
 const app = express();
+const port = 5000;
 
-// Ensure the uploads directory exists
-const uploadDir = path.join(__dirname, 'uploads');
-if (!fs.existsSync(uploadDir)) {
-    fs.mkdirSync(uploadDir);
-}
+app.use(cors());
 
-// Set up multer for file uploads
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, uploadDir);
-    },
-    filename: function (req, file, cb) {
-        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-        cb(null, uniqueSuffix + path.extname(file.originalname));
-    }
-});
+// Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-const upload = multer({
-    storage: storage,
-    limits: { fileSize: 25 * 1024 * 1024, fieldSize: 25 * 1024 * 1024 } // 25 MB limit for file size and field size
-});
+// Utilisez le middleware JWT pour protéger la route GET
+app.use('/api/get', jwtMiddleware);
 
-app.use(bodyParser.json({ limit: '50mb' }));
-app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
+// Routes et autres configurations...
+app.use('/api/get', get);
+app.use('/api/website', website);
+app.use('/api/connection', connection);
 
-app.use(cors({
-    origin: 'http://localhost:3000',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    preflightContinue: false,
-    optionsSuccessStatus: 204
-}));
-
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-
-// Use the API routes
-app.use('/api', apiRoutes);
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
-
-module.exports = upload;
+// Lancer le serveur
+app.listen(port, () => console.log('Le serveur fonctionne sur le port ' + port));
+console.log('Lien de connexion au serveur http://127.0.0.1:5500');
