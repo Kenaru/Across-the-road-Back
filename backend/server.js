@@ -1,32 +1,28 @@
 const express = require('express');
 const cors = require('cors');
-const bodyParser = require('body-parser');
-const uploadRouter = require('./config/upload'); // Correct path for uploadRouter
-const apiRoutes = require('./routes/routes');
-const path = require('path');
+const db = require('./config/db'); // Chemin vers votre fichier de configuration de la base de données
+const get = require('./routes/get.routes'); // Chemin vers votre fichier de routes
+const website = require('./routes/website.routes'); // Chemin vers votre fichier de routes
+const connection = require('./routes/connection.routes'); // Chemin vers votre fichier de routes
+const jwtMiddleware = require('./middleware/jwtMiddleware');
 
 const app = express();
+const port = 5000;
 
-// Configure body-parser to handle larger payloads
-app.use(bodyParser.json({ limit: '50mb' }));
-app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
+app.use(cors());
 
-// CORS configuration
-app.use(cors({
-    origin: 'http://localhost:3000',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    preflightContinue: false,
-    optionsSuccessStatus: 204
-}));
+// Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-// Serve static files from the uploads directory
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+// Utilisez le middleware JWT pour protéger la route GET
+app.use('/api/get', jwtMiddleware);
 
-// Your other middlewares and routes
-app.use('/api', apiRoutes);
+// Routes et autres configurations...
+app.use('/api/get', get);
+app.use('/api/website', website);
+app.use('/api/connection', connection);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+// Lancer le serveur
+app.listen(port, () => console.log('Le serveur fonctionne sur le port ' + port));
+console.log('Lien de connexion au serveur http://127.0.0.1:5500');
