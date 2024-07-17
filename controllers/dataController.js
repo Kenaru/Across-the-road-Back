@@ -309,9 +309,6 @@ const createPage = async (req, res) => {
     }
 };
 
-
-
-
 const fetchAllPages = async (req, res) => {
     try {
         console.log('Fetching all pages');
@@ -334,14 +331,11 @@ const fetchAllPages = async (req, res) => {
             // Fetch Services Data
             const [services] = await connection.query('SELECT * FROM services WHERE pageId = ?', [pageId]);
 
-            // Fetch Feedbacks Data
-            const [feedbacks] = await connection.query('SELECT * FROM feedbacks WHERE pageId = ?', [pageId]);
+            // Fetch Team Info Data
+            const [teamInfo] = await connection.query('SELECT * FROM team_info WHERE pageId = ?', [pageId]);
 
             // Fetch Team Members Data
             const [teamMembers] = await connection.query('SELECT * FROM team_members WHERE pageId = ?', [pageId]);
-
-            // Fetch Team Info Data
-            const [teamInfo] = await connection.query('SELECT * FROM team_info WHERE pageId = ?', [pageId]);
 
             // Fetch Footer Data
             const [footer] = await connection.query('SELECT * FROM footer WHERE pageId = ?', [pageId]);
@@ -359,17 +353,9 @@ const fetchAllPages = async (req, res) => {
                 service.imgUrl = service.imgUrl ? `${baseUrl}/uploads/${service.imgUrl}` : null;
             });
 
-            feedbacks.forEach(feedback => {
-                feedback.imgUrl = feedback.imgUrl ? `${baseUrl}/uploads/${feedback.imgUrl}` : null;
-            });
-
             teamMembers.forEach(member => {
                 member.img = member.img ? `${baseUrl}/uploads/${member.img}` : null;
             });
-
-            if (teamInfo.length > 0) {
-                teamInfo[0].imgUrl = `${baseUrl}/uploads/${teamInfo[0].imgUrl}`;
-            }
 
             if (footer.length > 0) {
                 footer[0].logo = `${baseUrl}/uploads/${footer[0].logo}`;
@@ -380,7 +366,6 @@ const fetchAllPages = async (req, res) => {
                 navbar: navbar[0] || null,
                 aboutSections,
                 services,
-                feedbacks,
                 teamMembers,
                 teamInfo: teamInfo[0] || null,
                 footer: footer[0] || null,
@@ -397,7 +382,6 @@ const fetchAllPages = async (req, res) => {
         res.status(500).json({ error: 'Internal server error' });
     }
 };
-
 
 const fetchPageById = async (req, res) => {
     const { id } = req.params;
@@ -416,7 +400,6 @@ const fetchPageById = async (req, res) => {
         const [navbar] = await connection.query('SELECT * FROM navbar WHERE pageId = ?', [pageId]);
         const [aboutSections] = await connection.query('SELECT * FROM about_sections WHERE pageId = ?', [pageId]);
         const [services] = await connection.query('SELECT * FROM services WHERE pageId = ?', [pageId]);
-        const [feedbacks] = await connection.query('SELECT * FROM feedbacks WHERE pageId = ?', [pageId]);
         const [teamMembers] = await connection.query('SELECT * FROM team_members WHERE pageId = ?', [pageId]);
         const [teamInfo] = await connection.query('SELECT * FROM team_info WHERE pageId = ?', [pageId]);
         const [footer] = await connection.query('SELECT * FROM footer WHERE pageId = ?', [pageId]);
@@ -434,17 +417,9 @@ const fetchPageById = async (req, res) => {
             service.imgUrl = service.imgUrl ? `${baseUrl}/uploads/${service.imgUrl}` : null;
         });
 
-        feedbacks.forEach(feedback => {
-            feedback.imgUrl = feedback.imgUrl ? `${baseUrl}/uploads/${feedback.imgUrl}` : null;
-        });
-
         teamMembers.forEach(member => {
             member.img = member.img ? `${baseUrl}/uploads/${member.img}` : null;
         });
-
-        if (teamInfo.length > 0) {
-            teamInfo[0].imgUrl = `${baseUrl}/uploads/${teamInfo[0].imgUrl}`;
-        }
 
         if (footer.length > 0) {
             footer[0].logo = `${baseUrl}/uploads/${footer[0].logo}`;
@@ -455,7 +430,6 @@ const fetchPageById = async (req, res) => {
             navbar: navbar[0] || null,
             aboutSections,
             services,
-            feedbacks,
             teamMembers,
             teamInfo: teamInfo[0] || null,
             footer: footer[0] || null,
@@ -470,7 +444,6 @@ const fetchPageById = async (req, res) => {
         connection.release();
     }
 };
-
 const fetchPagesByUserId = async (req, res) => {
     const { userId } = req.params;
 
@@ -483,11 +456,11 @@ const fetchPagesByUserId = async (req, res) => {
 
         for (const page of results) {
             const pageId = page.id;
+            const pageTitle = page.title;
 
             const [navbar] = await connection.query('SELECT * FROM navbar WHERE pageId = ?', [pageId]);
             const [aboutSections] = await connection.query('SELECT * FROM about_sections WHERE pageId = ?', [pageId]);
             const [services] = await connection.query('SELECT * FROM services WHERE pageId = ?', [pageId]);
-            const [feedbacks] = await connection.query('SELECT * FROM feedbacks WHERE pageId = ?', [pageId]);
             const [teamMembers] = await connection.query('SELECT * FROM team_members WHERE pageId = ?', [pageId]);
             const [teamInfo] = await connection.query('SELECT * FROM team_info WHERE pageId = ?', [pageId]);
             const [footer] = await connection.query('SELECT * FROM footer WHERE pageId = ?', [pageId]);
@@ -505,28 +478,21 @@ const fetchPagesByUserId = async (req, res) => {
                 service.imgUrl = service.imgUrl ? `${baseUrl}/uploads/${service.imgUrl}` : null;
             });
 
-            feedbacks.forEach(feedback => {
-                feedback.imgUrl = feedback.imgUrl ? `${baseUrl}/uploads/${feedback.imgUrl}` : null;
-            });
-
             teamMembers.forEach(member => {
                 member.img = member.img ? `${baseUrl}/uploads/${member.img}` : null;
             });
-
-            if (teamInfo.length > 0) {
-                teamInfo[0].imgUrl = `${baseUrl}/uploads/${teamInfo[0].imgUrl}`;
-            }
 
             if (footer.length > 0) {
                 footer[0].logo = `${baseUrl}/uploads/${footer[0].logo}`;
             }
 
             pages.push({
+                pageId,
+                title: pageTitle,
                 page,
                 navbar: navbar[0] || null,
                 aboutSections,
                 services,
-                feedbacks,
                 teamMembers,
                 teamInfo: teamInfo[0] || null,
                 footer: footer[0] || null,
@@ -542,6 +508,7 @@ const fetchPagesByUserId = async (req, res) => {
         connection.release();
     }
 };
+
 
 module.exports = {
     fetchPagesByUserId,

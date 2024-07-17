@@ -22,7 +22,6 @@ const authenticateJWT = require('../middleware/auth');
 const { authorizePostOwner, authorizeCommentOwner } = require('../middleware/authorizeOwner');
 const upload = require('../config/upload');
 
-// Logs
 router.get('/logs', authenticateJWT, (req, res) => {
     const logDirectory = path.join(__dirname, '../logs');
     fs.readdir(logDirectory, (err, files) => {
@@ -41,6 +40,21 @@ router.get('/logs/:filename', authenticateJWT, (req, res) => {
     });
 });
 
+router.post('/logs', authenticateJWT, (req, res) => {
+    const { user, activity } = req.body;
+    const logEntry = `${new Date().toISOString()} - ${user}: ${activity}\n`;
+
+    const logDirectory = path.join(__dirname, '../logs');
+    const logFile = path.join(logDirectory, 'activity.log');
+
+    fs.appendFile(logFile, logEntry, (err) => {
+        if (err) {
+            return res.status(500).json({ error: 'Unable to log activity' });
+        }
+        res.status(200).json({ message: 'Activity logged successfully' });
+    });
+});
+
 // CMS Data
 router.post('/navbar', authenticateJWT, upload.single('navbar_image'), insertNavbar);
 router.post('/footer', authenticateJWT, upload.single('footer_image'), insertFooter);
@@ -53,7 +67,7 @@ router.post('/team/info', authenticateJWT, insertTeamInfo);
 router.post('/pages', authenticateJWT, createPage);
 router.get('/pages/:id', authenticateJWT, fetchPageById);
 router.get('/pages/user/:userId', authenticateJWT, fetchPagesByUserId);
-router.get('/pages', authenticateJWT, fetchAllPages);
+router.get('/fetchAllPages', authenticateJWT, fetchAllPages);
 
 // User Authentication
 router.post('/register', userController.register_user);
