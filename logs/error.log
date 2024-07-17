@@ -141,3 +141,4 @@
 2024-07-16 09:30:23 error: middlewareError
 2024-07-16 11:35:01 error: Error during service insertion transaction: Incorrect integer value: '/Association1kiiiiiiiiiiiiiiiiiiiiii' for column 'pageId' at row 1
 2024-07-16 15:39:52 error: Error during team member insertion transaction: Incorrect integer value: '/zdefgrthjykliojhgf' for column 'pageId' at row 1
+2024-07-17 18:37:17 error: Error during user registration: Duplicate entry 'jane.smith@example.com' for key 'users.email'

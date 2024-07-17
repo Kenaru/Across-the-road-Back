@@ -7399,3 +7399,460 @@ Si la collecte auprès des particuliers demeure très utilisée, c’est parce q
 2024-07-17 16:52:30 info: ::ffff:127.0.0.1 - - [17/Jul/2024:14:52:30 +0000] "POST /api/pages HTTP/1.1" 201 72 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
 2024-07-17 16:52:38 info: HTTP POST /api/navbar
 2024-07-17 16:52:38 info: ::ffff:127.0.0.1 - - [17/Jul/2024:14:52:38 +0000] "POST /api/navbar HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 17:56:21 info: HTTP GET /api/profile
+2024-07-17 17:56:21 info: ::ffff:127.0.0.1 - - [17/Jul/2024:15:56:21 +0000] "GET /api/profile HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 17:56:21 info: HTTP GET /api/profile
+2024-07-17 17:56:21 info: ::ffff:127.0.0.1 - - [17/Jul/2024:15:56:21 +0000] "GET /api/profile HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 17:56:34 info: User logged in: noellaikirezi@gmail.com, ID: 3
+2024-07-17 17:56:34 info: HTTP POST /api/login
+2024-07-17 17:56:34 info: ::ffff:127.0.0.1 - - [17/Jul/2024:15:56:34 +0000] "POST /api/login HTTP/1.1" 200 270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 17:56:34 info: Fetched profile for user ID: 3
+2024-07-17 17:56:34 info: HTTP GET /api/profile
+2024-07-17 17:56:34 info: ::ffff:127.0.0.1 - - [17/Jul/2024:15:56:34 +0000] "GET /api/profile HTTP/1.1" 200 166 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 17:56:34 info: Fetched profile for user ID: 3
+2024-07-17 17:56:34 info: HTTP GET /api/profile
+2024-07-17 17:56:34 info: ::ffff:127.0.0.1 - - [17/Jul/2024:15:56:34 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 17:56:47 info: Fetched all pages and their components
+2024-07-17 17:56:47 info: HTTP GET /api/fetchAllPages
+2024-07-17 17:56:47 info: ::ffff:127.0.0.1 - - [17/Jul/2024:15:56:47 +0000] "GET /api/fetchAllPages HTTP/1.1" 200 4063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 17:56:47 info: Fetched all pages and their components
+2024-07-17 17:56:47 info: HTTP GET /api/fetchAllPages
+2024-07-17 17:56:47 info: ::ffff:127.0.0.1 - - [17/Jul/2024:15:56:47 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:42 info: HTTP GET /api/pages/90
+2024-07-17 18:00:42 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:42 +0000] "GET /api/pages/90 HTTP/1.1" 200 358 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:42 info: HTTP GET /api/pages/90
+2024-07-17 18:00:42 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:42 +0000] "GET /api/pages/90 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:48 info: Fetched all pages and their components
+2024-07-17 18:00:49 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:00:49 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:49 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:49 info: Fetched all pages and their components
+2024-07-17 18:00:49 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:00:49 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:49 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:51 info: HTTP GET /api/pages/2
+2024-07-17 18:00:51 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:51 +0000] "GET /api/pages/2 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:51 info: HTTP GET /api/pages/2
+2024-07-17 18:00:51 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:51 +0000] "GET /api/pages/2 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:56 info: Fetched all pages and their components
+2024-07-17 18:00:56 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:00:56 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:56 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:00:56 info: Fetched all pages and their components
+2024-07-17 18:00:56 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:00:56 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:00:56 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:01:10 info: HTTP GET /api/pages/89
+2024-07-17 18:01:10 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:01:10 +0000] "GET /api/pages/89 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:01:10 info: HTTP GET /api/pages/89
+2024-07-17 18:01:10 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:01:10 +0000] "GET /api/pages/89 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:05:56 info: Fetched all pages and their components
+2024-07-17 18:05:56 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:05:56 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:05:56 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:05:56 info: Fetched all pages and their components
+2024-07-17 18:05:56 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:05:56 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:05:56 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:05:58 info: Fetched profile for user ID: 3
+2024-07-17 18:05:58 info: HTTP GET /api/profile
+2024-07-17 18:05:58 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:05:58 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:05:58 info: Fetched profile for user ID: 3
+2024-07-17 18:05:58 info: HTTP GET /api/profile
+2024-07-17 18:05:58 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:05:58 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:06:14 info: HTTP POST /api/pages
+2024-07-17 18:06:14 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:06:14 +0000] "POST /api/pages HTTP/1.1" 201 82 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:07:12 info: HTTP POST /api/navbar
+2024-07-17 18:07:12 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:07:12 +0000] "POST /api/navbar HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:12:07 info: HTTP POST /api/footer
+2024-07-17 18:12:07 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:12:07 +0000] "POST /api/footer HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:12:44 info: HTTP POST /api/navbar
+2024-07-17 18:12:44 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:12:44 +0000] "POST /api/navbar HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:15:11 info: HTTP POST /api/pages
+2024-07-17 18:15:11 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:15:11 +0000] "POST /api/pages HTTP/1.1" 201 44 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:16:02 info: HTTP POST /api/navbar
+2024-07-17 18:16:02 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:16:02 +0000] "POST /api/navbar HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:16:47 info: HTTP POST /api/about/save-section
+2024-07-17 18:16:47 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:16:47 +0000] "POST /api/about/save-section HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:19:54 info: HTTP POST /api/about/save-section
+2024-07-17 18:19:54 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:19:54 +0000] "POST /api/about/save-section HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:20:05 info: HTTP POST /api/about/upload-image
+2024-07-17 18:20:05 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:20:05 +0000] "POST /api/about/upload-image HTTP/1.1" 200 112 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:20:05 info: HTTP POST /api/about/save-section
+2024-07-17 18:20:05 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:20:05 +0000] "POST /api/about/save-section HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:20:49 info: HTTP POST /api/service/upload-image
+2024-07-17 18:20:49 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:20:49 +0000] "POST /api/service/upload-image HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:20:49 info: HTTP POST /api/service/save
+2024-07-17 18:20:49 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:20:49 +0000] "POST /api/service/save HTTP/1.1" 200 34 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:21:59 info: HTTP POST /api/service/upload-image
+2024-07-17 18:21:59 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:21:59 +0000] "POST /api/service/upload-image HTTP/1.1" 200 109 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:21:59 info: HTTP POST /api/service/save
+2024-07-17 18:21:59 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:21:59 +0000] "POST /api/service/save HTTP/1.1" 200 34 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:22:25 info: HTTP POST /api/team/info
+2024-07-17 18:22:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:22:25 +0000] "POST /api/team/info HTTP/1.1" 200 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:22:57 info: HTTP POST /api/team/member
+2024-07-17 18:22:57 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:22:57 +0000] "POST /api/team/member HTTP/1.1" 200 38 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:23:17 info: HTTP POST /api/team/member
+2024-07-17 18:23:17 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:23:17 +0000] "POST /api/team/member HTTP/1.1" 200 38 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:23:31 info: HTTP POST /api/footer
+2024-07-17 18:23:31 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:23:31 +0000] "POST /api/footer HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:23:51 info: Fetched profile for user ID: 3
+2024-07-17 18:23:51 info: HTTP GET /api/profile
+2024-07-17 18:23:51 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:23:51 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:23:51 info: Fetched profile for user ID: 3
+2024-07-17 18:23:51 info: HTTP GET /api/profile
+2024-07-17 18:23:51 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:23:51 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:24:01 info: Fetched profile for user ID: 3
+2024-07-17 18:24:01 info: HTTP GET /api/profile
+2024-07-17 18:24:01 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:24:01 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:24:01 info: Fetched profile for user ID: 3
+2024-07-17 18:24:01 info: HTTP GET /api/profile
+2024-07-17 18:24:01 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:24:01 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:24:01 info: HTTP GET /api/pages/user/3
+2024-07-17 18:24:01 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:24:01 +0000] "GET /api/pages/user/3 HTTP/1.1" 200 7746 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:24:01 info: HTTP GET /api/pages/user/3
+2024-07-17 18:24:01 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:24:01 +0000] "GET /api/pages/user/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:24:04 info: HTTP GET /api/pages/92
+2024-07-17 18:24:04 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:24:04 +0000] "GET /api/pages/92 HTTP/1.1" 200 2510 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:24:04 info: HTTP GET /api/pages/92
+2024-07-17 18:24:04 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:24:04 +0000] "GET /api/pages/92 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:14 info: Fetched profile for user ID: 3
+2024-07-17 18:25:14 info: HTTP GET /api/profile
+2024-07-17 18:25:14 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:14 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:14 info: Fetched profile for user ID: 3
+2024-07-17 18:25:14 info: HTTP GET /api/profile
+2024-07-17 18:25:14 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:14 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:18 info: Fetched all pages and their components
+2024-07-17 18:25:18 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:25:18 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:18 +0000] "GET /api/fetchAllPages HTTP/1.1" 200 7037 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:18 info: Fetched all pages and their components
+2024-07-17 18:25:18 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:25:18 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:18 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:24 info: Fetched profile for user ID: 3
+2024-07-17 18:25:24 info: HTTP GET /api/profile
+2024-07-17 18:25:24 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:24 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:24 info: Fetched profile for user ID: 3
+2024-07-17 18:25:24 info: HTTP GET /api/profile
+2024-07-17 18:25:24 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:24 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: HTTP GET /api/logs
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/logs HTTP/1.1" 200 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: HTTP GET /api/comments
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: Fetched all users
+2024-07-17 18:25:25 info: HTTP GET /api/users
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: HTTP GET /api/logs
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: HTTP GET /api/comments
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: HTTP POST /api/logs
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: Fetched all users
+2024-07-17 18:25:25 info: HTTP GET /api/users
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: HTTP POST /api/logs
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: Fetched all posts with comments
+2024-07-17 18:25:25 info: HTTP GET /api/posts
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: Fetched all posts with comments
+2024-07-17 18:25:25 info: HTTP GET /api/posts
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: Fetched all pages and their components
+2024-07-17 18:25:25 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:25 info: Fetched all pages and their components
+2024-07-17 18:25:25 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:25:25 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:25 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:28 info: HTTP GET /api/logs/activity.log
+2024-07-17 18:25:28 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:28 +0000] "GET /api/logs/activity.log HTTP/1.1" 200 2212 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:28 info: HTTP POST /api/logs
+2024-07-17 18:25:28 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:28 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:45 info: HTTP GET /api/logs/app.log
+2024-07-17 18:25:45 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:45 +0000] "GET /api/logs/app.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:25:45 info: HTTP POST /api/logs
+2024-07-17 18:25:45 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:25:45 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:26:54 info: HTTP POST /api/register
+2024-07-17 18:26:54 info: ::1 - - [17/Jul/2024:16:26:54 +0000] "POST /api/register HTTP/1.1" 400 156 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:27:30 info: HTTP POST /api/register
+2024-07-17 18:27:30 info: ::1 - - [17/Jul/2024:16:27:30 +0000] "POST /api/register HTTP/1.1" 400 67 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:28:28 info: HTTP POST /api/register
+2024-07-17 18:28:28 info: ::1 - - [17/Jul/2024:16:28:28 +0000] "POST /api/register HTTP/1.1" 400 67 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:29:31 info: HTTP POST /api/register
+2024-07-17 18:29:31 info: ::1 - - [17/Jul/2024:16:29:31 +0000] "POST /api/register HTTP/1.1" 400 67 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:30:10 info: HTTP POST /api/register
+2024-07-17 18:30:10 info: ::1 - - [17/Jul/2024:16:30:10 +0000] "POST /api/register HTTP/1.1" 400 67 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:30:26 info: Fetched profile for user ID: 3
+2024-07-17 18:30:26 info: HTTP GET /api/profile
+2024-07-17 18:30:26 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:30:26 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:30:26 info: Fetched profile for user ID: 3
+2024-07-17 18:30:26 info: HTTP GET /api/profile
+2024-07-17 18:30:26 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:30:26 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:31:49 info: HTTP POST /api/register
+2024-07-17 18:31:49 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:31:49 +0000] "POST /api/register HTTP/1.1" 400 67 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:10 info: HTTP POST /api/register
+2024-07-17 18:34:10 info: ::1 - - [17/Jul/2024:16:34:10 +0000] "POST /api/register HTTP/1.1" 400 156 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:34:23 info: User registered successfully with ID: 4
+2024-07-17 18:34:23 info: HTTP POST /api/register
+2024-07-17 18:34:23 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:23 +0000] "POST /api/register HTTP/1.1" 201 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:31 info: User logged in: noellaikirezi@gmail.com, ID: 3
+2024-07-17 18:34:31 info: HTTP POST /api/login
+2024-07-17 18:34:31 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:31 +0000] "POST /api/login HTTP/1.1" 200 270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:31 info: Fetched profile for user ID: 3
+2024-07-17 18:34:31 info: HTTP GET /api/profile
+2024-07-17 18:34:31 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:31 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:31 info: Fetched profile for user ID: 3
+2024-07-17 18:34:31 info: HTTP GET /api/profile
+2024-07-17 18:34:31 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:31 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: HTTP GET /api/logs
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/logs HTTP/1.1" 200 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: HTTP GET /api/comments
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: HTTP GET /api/logs
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: HTTP POST /api/logs
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: HTTP GET /api/comments
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: HTTP POST /api/logs
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: Fetched all users
+2024-07-17 18:34:33 info: HTTP GET /api/users
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/users HTTP/1.1" 200 597 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: Fetched all users
+2024-07-17 18:34:33 info: HTTP GET /api/users
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: Fetched all posts with comments
+2024-07-17 18:34:33 info: HTTP GET /api/posts
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: Fetched all posts with comments
+2024-07-17 18:34:33 info: HTTP GET /api/posts
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: Fetched all pages and their components
+2024-07-17 18:34:33 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:33 info: Fetched all pages and their components
+2024-07-17 18:34:33 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:34:33 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:33 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: HTTP GET /api/logs
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/logs HTTP/1.1" 200 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: Fetched all users
+2024-07-17 18:34:40 info: HTTP GET /api/users
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: HTTP GET /api/logs
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: HTTP GET /api/comments
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: HTTP GET /api/comments
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: Fetched all posts with comments
+2024-07-17 18:34:40 info: HTTP GET /api/posts
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: HTTP POST /api/logs
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: Fetched all users
+2024-07-17 18:34:40 info: HTTP GET /api/users
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: HTTP POST /api/logs
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: Fetched all posts with comments
+2024-07-17 18:34:40 info: HTTP GET /api/posts
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: Fetched all pages and their components
+2024-07-17 18:34:40 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:34:40 info: Fetched all pages and their components
+2024-07-17 18:34:40 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:34:40 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:34:40 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:36:32 info: HTTP POST /api/register
+2024-07-17 18:36:32 info: ::1 - - [17/Jul/2024:16:36:32 +0000] "POST /api/register HTTP/1.1" 400 156 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:37:17 error: Error during user registration: Duplicate entry 'jane.smith@example.com' for key 'users.email'
+2024-07-17 18:37:17 info: HTTP POST /api/register
+2024-07-17 18:37:17 info: ::1 - - [17/Jul/2024:16:37:17 +0000] "POST /api/register HTTP/1.1" 400 51 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:37:35 info: User registered successfully with ID: 6
+2024-07-17 18:37:35 info: HTTP POST /api/register
+2024-07-17 18:37:35 info: ::1 - - [17/Jul/2024:16:37:35 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:37:57 info: User registered successfully with ID: 7
+2024-07-17 18:37:57 info: HTTP POST /api/register
+2024-07-17 18:37:57 info: ::1 - - [17/Jul/2024:16:37:57 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:38:17 info: User registered successfully with ID: 8
+2024-07-17 18:38:17 info: HTTP POST /api/register
+2024-07-17 18:38:17 info: ::1 - - [17/Jul/2024:16:38:17 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:38:33 info: User registered successfully with ID: 9
+2024-07-17 18:38:33 info: HTTP POST /api/register
+2024-07-17 18:38:33 info: ::1 - - [17/Jul/2024:16:38:33 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:38:54 info: User registered successfully with ID: 10
+2024-07-17 18:38:54 info: HTTP POST /api/register
+2024-07-17 18:38:54 info: ::1 - - [17/Jul/2024:16:38:54 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:39:36 info: User registered successfully with ID: 11
+2024-07-17 18:39:36 info: HTTP POST /api/register
+2024-07-17 18:39:36 info: ::1 - - [17/Jul/2024:16:39:36 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:39:52 info: User registered successfully with ID: 12
+2024-07-17 18:39:52 info: HTTP POST /api/register
+2024-07-17 18:39:52 info: ::1 - - [17/Jul/2024:16:39:52 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:40:10 info: User registered successfully with ID: 13
+2024-07-17 18:40:10 info: HTTP POST /api/register
+2024-07-17 18:40:10 info: ::1 - - [17/Jul/2024:16:40:10 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:40:25 info: User registered successfully with ID: 14
+2024-07-17 18:40:25 info: HTTP POST /api/register
+2024-07-17 18:40:25 info: ::1 - - [17/Jul/2024:16:40:25 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:40:38 info: User registered successfully with ID: 15
+2024-07-17 18:40:38 info: HTTP POST /api/register
+2024-07-17 18:40:38 info: ::1 - - [17/Jul/2024:16:40:38 +0000] "POST /api/register HTTP/1.1" 201 49 "-" "PostmanRuntime/7.40.0"
+2024-07-17 18:41:00 info: HTTP GET /api/logs
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/logs HTTP/1.1" 200 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: Fetched all users
+2024-07-17 18:41:00 info: HTTP GET /api/users
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/users HTTP/1.1" 200 2076 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: HTTP GET /api/comments
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: HTTP GET /api/logs
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: HTTP POST /api/logs
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: Fetched all posts with comments
+2024-07-17 18:41:00 info: HTTP GET /api/posts
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: HTTP GET /api/comments
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: Fetched all users
+2024-07-17 18:41:00 info: HTTP GET /api/users
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: HTTP POST /api/logs
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: Fetched all posts with comments
+2024-07-17 18:41:00 info: HTTP GET /api/posts
+2024-07-17 18:41:00 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:00 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:00 info: Fetched all pages and their components
+2024-07-17 18:41:01 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:41:01 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:01 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:01 info: Fetched all pages and their components
+2024-07-17 18:41:01 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:41:01 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:01 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:49 info: Fetched profile for user ID: 3
+2024-07-17 18:41:49 info: HTTP GET /api/profile
+2024-07-17 18:41:49 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:49 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:50 info: Fetched profile for user ID: 3
+2024-07-17 18:41:50 info: HTTP GET /api/profile
+2024-07-17 18:41:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:50 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:52 info: Fetched profile for user ID: 3
+2024-07-17 18:41:52 info: HTTP GET /api/profile
+2024-07-17 18:41:52 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:52 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:52 info: Fetched profile for user ID: 3
+2024-07-17 18:41:52 info: HTTP GET /api/profile
+2024-07-17 18:41:52 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:52 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:52 info: Fetched all posts with comments
+2024-07-17 18:41:52 info: HTTP GET /api/posts
+2024-07-17 18:41:52 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:52 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:41:52 info: Fetched all posts with comments
+2024-07-17 18:41:52 info: HTTP GET /api/posts
+2024-07-17 18:41:52 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:41:52 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:42:22 info: Post created with ID: 11 by user ID: 3
+2024-07-17 18:42:22 info: HTTP POST /api/posts
+2024-07-17 18:42:22 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:42:22 +0000] "POST /api/posts HTTP/1.1" 200 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:42:36 info: Comment created with ID: 16 for post ID: 11 by user ID: 3
+2024-07-17 18:42:36 info: HTTP POST /api/comments
+2024-07-17 18:42:36 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:42:36 +0000] "POST /api/comments HTTP/1.1" 201 262 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:42:41 info: Fetched profile for user ID: 3
+2024-07-17 18:42:41 info: HTTP GET /api/profile
+2024-07-17 18:42:41 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:42:41 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:42:41 info: Fetched profile for user ID: 3
+2024-07-17 18:42:41 info: HTTP GET /api/profile
+2024-07-17 18:42:41 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:42:41 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:42:41 info: Fetched all posts with comments
+2024-07-17 18:42:41 info: HTTP GET /api/posts
+2024-07-17 18:42:41 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:42:41 +0000] "GET /api/posts HTTP/1.1" 200 7591 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:42:41 info: Fetched all posts with comments
+2024-07-17 18:42:41 info: HTTP GET /api/posts
+2024-07-17 18:42:41 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:42:41 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:44:10 info: User logged in: noellaikirezi@gmail.com, ID: 3
+2024-07-17 18:44:10 info: HTTP POST /api/login
+2024-07-17 18:44:10 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:44:10 +0000] "POST /api/login HTTP/1.1" 200 270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:44:10 info: Fetched profile for user ID: 3
+2024-07-17 18:44:10 info: HTTP GET /api/profile
+2024-07-17 18:44:10 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:44:10 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:44:10 info: Fetched profile for user ID: 3
+2024-07-17 18:44:10 info: HTTP GET /api/profile
+2024-07-17 18:44:10 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:44:10 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:45:03 info: HTTP POST /api/pages
+2024-07-17 18:45:03 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:45:03 +0000] "POST /api/pages HTTP/1.1" 201 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:45:18 info: HTTP POST /api/navbar
+2024-07-17 18:45:18 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:45:18 +0000] "POST /api/navbar HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:45:52 info: HTTP POST /api/about/save-section
+2024-07-17 18:45:52 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:45:52 +0000] "POST /api/about/save-section HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:46:39 info: HTTP POST /api/service/upload-image
+2024-07-17 18:46:39 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:46:39 +0000] "POST /api/service/upload-image HTTP/1.1" 200 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:46:39 info: HTTP POST /api/service/save
+2024-07-17 18:46:39 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:46:39 +0000] "POST /api/service/save HTTP/1.1" 200 34 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:47:19 info: HTTP POST /api/team/info
+2024-07-17 18:47:19 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:47:19 +0000] "POST /api/team/info HTTP/1.1" 200 36 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:47:49 info: HTTP POST /api/team/member
+2024-07-17 18:47:49 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:47:49 +0000] "POST /api/team/member HTTP/1.1" 200 38 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:11 info: HTTP POST /api/team/member
+2024-07-17 18:48:11 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:11 +0000] "POST /api/team/member HTTP/1.1" 200 38 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:24 info: HTTP POST /api/footer
+2024-07-17 18:48:24 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:24 +0000] "POST /api/footer HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:31 info: Fetched profile for user ID: 3
+2024-07-17 18:48:31 info: HTTP GET /api/profile
+2024-07-17 18:48:31 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:31 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:31 info: Fetched profile for user ID: 3
+2024-07-17 18:48:31 info: HTTP GET /api/profile
+2024-07-17 18:48:31 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:31 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:35 info: Fetched profile for user ID: 3
+2024-07-17 18:48:35 info: HTTP GET /api/profile
+2024-07-17 18:48:35 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:35 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:35 info: Fetched profile for user ID: 3
+2024-07-17 18:48:35 info: HTTP GET /api/profile
+2024-07-17 18:48:35 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:35 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:35 info: HTTP GET /api/pages/user/3
+2024-07-17 18:48:35 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:35 +0000] "GET /api/pages/user/3 HTTP/1.1" 200 9459 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:35 info: HTTP GET /api/pages/user/3
+2024-07-17 18:48:35 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:35 +0000] "GET /api/pages/user/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:39 info: HTTP GET /api/pages/93
+2024-07-17 18:48:39 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:39 +0000] "GET /api/pages/93 HTTP/1.1" 200 1530 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:48:39 info: HTTP GET /api/pages/93
+2024-07-17 18:48:39 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:48:39 +0000] "GET /api/pages/93 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:49:11 info: Fetched profile for user ID: 3
+2024-07-17 18:49:11 info: HTTP GET /api/profile
+2024-07-17 18:49:11 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:49:11 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:49:11 info: Fetched profile for user ID: 3
+2024-07-17 18:49:11 info: HTTP GET /api/profile
+2024-07-17 18:49:11 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:49:11 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: HTTP GET /api/logs
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/logs HTTP/1.1" 200 53 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: HTTP GET /api/comments
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: Fetched all users
+2024-07-17 18:56:50 info: HTTP GET /api/users
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: HTTP GET /api/logs
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: HTTP GET /api/comments
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: HTTP POST /api/logs
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: Fetched all posts with comments
+2024-07-17 18:56:50 info: HTTP GET /api/posts
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: Fetched all users
+2024-07-17 18:56:50 info: HTTP GET /api/users
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: HTTP POST /api/logs
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "POST /api/logs HTTP/1.1" 200 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: Fetched all posts with comments
+2024-07-17 18:56:50 info: HTTP GET /api/posts
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: Fetched all pages and their components
+2024-07-17 18:56:50 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/fetchAllPages HTTP/1.1" 200 8568 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 18:56:50 info: Fetched all pages and their components
+2024-07-17 18:56:50 info: HTTP GET /api/fetchAllPages
+2024-07-17 18:56:50 info: ::ffff:127.0.0.1 - - [17/Jul/2024:16:56:50 +0000] "GET /api/fetchAllPages HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 19:00:21 info: Fetched profile for user ID: 3
+2024-07-17 19:00:21 info: HTTP GET /api/profile
+2024-07-17 19:00:21 info: ::ffff:127.0.0.1 - - [17/Jul/2024:17:00:21 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 19:00:21 info: Fetched profile for user ID: 3
+2024-07-17 19:00:21 info: HTTP GET /api/profile
+2024-07-17 19:00:21 info: ::ffff:127.0.0.1 - - [17/Jul/2024:17:00:21 +0000] "GET /api/profile HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 19:03:26 info: HTTP POST /api/pages
+2024-07-17 19:03:26 info: ::ffff:127.0.0.1 - - [17/Jul/2024:17:03:26 +0000] "POST /api/pages HTTP/1.1" 201 50 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 19:03:39 info: HTTP POST /api/navbar
+2024-07-17 19:03:39 info: ::ffff:127.0.0.1 - - [17/Jul/2024:17:03:39 +0000] "POST /api/navbar HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 19:04:12 info: HTTP POST /api/about/save-section
+2024-07-17 19:04:12 info: ::ffff:127.0.0.1 - - [17/Jul/2024:17:04:12 +0000] "POST /api/about/save-section HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-17 19:08:38 info: HTTP POST /api/about/save-section
+2024-07-17 19:08:38 info: ::ffff:127.0.0.1 - - [17/Jul/2024:17:08:38 +0000] "POST /api/about/save-section HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
