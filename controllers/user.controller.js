@@ -18,7 +18,7 @@ function hashPassword(password) {
 }
 
 exports.register_user = async (req, res) => {
-    const { email, last_name, first_name, birthday, phone, password, confirmPassword } = req.body;
+    const { email, last_name, first_name, birthdate, phone, password, confirmPassword } = req.body;
 
     console.log('Registration attempt with:', req.body);
 
@@ -33,8 +33,8 @@ exports.register_user = async (req, res) => {
         return res.status(400).json({ success: false, message: 'Le mot de passe doit contenir au moins 8 caractères, dont une majuscule, une minuscule, un chiffre et un caractère spécial.' });
     }
 
-    if (!birthday) {
-        console.log('Birthday is required.');
+    if (!birthdate) {
+        console.log('birthdate is required.');
         return res.status(400).json({ success: false, message: 'La date de naissance est obligatoire.' });
     }
 
@@ -43,7 +43,7 @@ exports.register_user = async (req, res) => {
 
     try {
         const query = 'INSERT INTO users (last_name, first_name, birthdate, email, phone, password) VALUES (?, ?, ?, ?, ?, ?)';
-        const values = [last_name, first_name, birthday, email, phone, hashedPassword];
+        const values = [last_name, first_name, birthdate, email, phone, hashedPassword];
         console.log('Executing query:', query);
         console.log('With values:', values);
 
@@ -177,20 +177,20 @@ const formatDate = (dateStr) => {
 
 exports.update_profile = async (req, res) => {
     const userId = req.user.id;
-    const { last_name, first_name, birthday, email, phone } = req.body;
+    const { last_name, first_name, birthdate, email, phone } = req.body;
 
     // Ensure that none of the required fields are null
-    if (!last_name || !first_name || !birthday || !email || !phone) {
+    if (!last_name || !first_name || !birthdate || !email || !phone) {
         return res.status(400).json({ success: false, message: 'All fields are required and cannot be null' });
     }
 
     // Convert birthdate to YYYY-MM-DD format
-    const formattedBirthday = formatDate(birthday);
+    const formattedbirthdate = formatDate(birthdate);
 
     try {
         console.log('Updating profile for user ID:', userId);
         const query = 'UPDATE users SET last_name = ?, first_name = ?, birthdate = ?, email = ?, phone = ? WHERE id = ?';
-        const values = [last_name, first_name, formattedBirthday, email, phone, userId];
+        const values = [last_name, first_name, formattedbirthdate, email, phone, userId];
 
         console.log('Executing query:', query);
         console.log('With values:', values);

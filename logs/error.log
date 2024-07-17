@@ -141,3 +141,15 @@
 2024-07-16 09:30:23 error: middlewareError
 2024-07-16 11:35:01 error: Error during service insertion transaction: Incorrect integer value: '/Association1kiiiiiiiiiiiiiiiiiiiiii' for column 'pageId' at row 1
 2024-07-16 15:39:52 error: Error during team member insertion transaction: Incorrect integer value: '/zdefgrthjykliojhgf' for column 'pageId' at row 1
+2024-07-17 20:14:38 error: Error during user registration: Access denied for user 'root'@'localhost' (using password: NO)
+2024-07-17 20:15:59 error: Error during user registration: Access denied for user 'root'@'localhost' (using password: NO)
+2024-07-17 20:16:18 error: Error during user registration: Access denied for user 'root'@'localhost' (using password: NO)
+2024-07-17 20:16:28 error: Error during user registration: Duplicate entry 'dragonauredev@gmail.com' for key 'email'
+2024-07-17 20:16:56 error: Error fetching posts: Table 'biau7663_acrosstheroad.blog_posts' doesn't exist
+2024-07-17 20:16:56 error: Error fetching posts: Table 'biau7663_acrosstheroad.blog_posts' doesn't exist
+2024-07-17 20:17:10 error: Error fetching posts: Table 'biau7663_acrosstheroad.blog_posts' doesn't exist
+2024-07-17 20:17:10 error: Error fetching posts: Table 'biau7663_acrosstheroad.blog_posts' doesn't exist
+2024-07-17 20:17:28 error: Error during page creation transaction: Unknown column 'userId' in 'field list'
+2024-07-17 20:17:36 error: Error during page creation transaction: Unknown column 'userId' in 'field list'
+2024-07-17 20:20:52 error: Error during page creation transaction: Cannot add or update a child row: a foreign key constraint fails (`biau7663_acrosstheroad`.`pages`, CONSTRAINT `fk_pages_user` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2024-07-17 22:33:03 error: middlewareError

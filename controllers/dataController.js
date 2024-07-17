@@ -96,9 +96,9 @@ const insertFooter = async (req, res) => {
 };
 const uploadAboutImage = async (req, res) => {
     console.log('Received uploadAboutImage request');
+    console.log('File received:', req.file);
     const file = req.file;
 
-    console.log('File received:', file);
 
     if (!file) {
         console.log('No file uploaded');
