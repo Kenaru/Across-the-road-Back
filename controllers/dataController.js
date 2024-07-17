@@ -342,23 +342,23 @@ const fetchAllPages = async (req, res) => {
 
             // Constructing the URLs for images
             if (navbar.length > 0) {
-                navbar[0].logo = `${baseUrl}/uploads/${navbar[0].logo}`;
+                navbar[0].logo = `${baseUrl}/uploads/${navbar[0].logo.split('/').pop()}`;
             }
 
             aboutSections.forEach(section => {
-                section.imageUrl = section.imageUrl ? `${baseUrl}/uploads/${section.imageUrl}` : null;
+                section.imageUrl = section.imageUrl ? `${baseUrl}/uploads/${section.imageUrl.split('/').pop()}` : null;
             });
 
             services.forEach(service => {
-                service.imgUrl = service.imgUrl ? `${baseUrl}/uploads/${service.imgUrl}` : null;
+                service.imgUrl = service.imgUrl ? `${baseUrl}/uploads/${service.imgUrl.split('/').pop()}` : null;
             });
 
             teamMembers.forEach(member => {
-                member.img = member.img ? `${baseUrl}/uploads/${member.img}` : null;
+                member.img = member.img ? `${baseUrl}/uploads/${member.img.split('/').pop()}` : null;
             });
 
             if (footer.length > 0) {
-                footer[0].logo = `${baseUrl}/uploads/${footer[0].logo}`;
+                footer[0].logo = `${baseUrl}/uploads/${footer[0].logo.split('/').pop()}`;
             }
 
             results.push({
@@ -406,23 +406,23 @@ const fetchPageById = async (req, res) => {
 
         // Constructing the URLs for images
         if (navbar.length > 0) {
-            navbar[0].logo = `${baseUrl}/uploads/${navbar[0].logo}`;
+            navbar[0].logo = `${baseUrl}/uploads/${navbar[0].logo.split('/').pop()}`;
         }
 
         aboutSections.forEach(section => {
-            section.imageUrl = section.imageUrl ? `${baseUrl}/uploads/${section.imageUrl}` : null;
+            section.imageUrl = section.imageUrl ? `${baseUrl}/uploads/${section.imageUrl.split('/').pop()}` : null;
         });
 
         services.forEach(service => {
-            service.imgUrl = service.imgUrl ? `${baseUrl}/uploads/${service.imgUrl}` : null;
+            service.imgUrl = service.imgUrl ? `${baseUrl}/uploads/${service.imgUrl.split('/').pop()}` : null;
         });
 
         teamMembers.forEach(member => {
-            member.img = member.img ? `${baseUrl}/uploads/${member.img}` : null;
+            member.img = member.img ? `${baseUrl}/uploads/${member.img.split('/').pop()}` : null;
         });
 
         if (footer.length > 0) {
-            footer[0].logo = `${baseUrl}/uploads/${footer[0].logo}`;
+            footer[0].logo = `${baseUrl}/uploads/${footer[0].logo.split('/').pop()}`;
         }
 
         const result = {
@@ -444,6 +444,7 @@ const fetchPageById = async (req, res) => {
         connection.release();
     }
 };
+
 const fetchPagesByUserId = async (req, res) => {
     const { userId } = req.params;
 
