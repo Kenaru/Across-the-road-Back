@@ -1,0 +1,258 @@
+2024-07-07T12:49:23.898Z info: HTTP GET /api/logs
+2024-07-07T12:49:23.903Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:49:23 +0000] "GET /api/logs HTTP/1.1" 200 38 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:49:23.909Z info: HTTP GET /api/logs
+2024-07-07T12:49:23.909Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:49:23 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:49:29.370Z info: HTTP GET /api/logs/combined.log
+2024-07-07T12:49:29.371Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:49:29 +0000] "GET /api/logs/combined.log HTTP/1.1" 200 369 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:49:35.812Z info: HTTP GET /api/logs/error.log
+2024-07-07T12:49:35.813Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:49:35 +0000] "GET /api/logs/error.log HTTP/1.1" 200 49 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:49:38.692Z info: HTTP GET /api/logs/app.log
+2024-07-07T12:49:38.693Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:49:38 +0000] "GET /api/logs/app.log HTTP/1.1" 200 1318 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:49:51.975Z info: HTTP GET /api/logs/error.log
+2024-07-07T12:49:51.976Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:49:51 +0000] "GET /api/logs/error.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:50:54.190Z info: HTTP GET /api/logs/app.log
+2024-07-07T12:50:54.191Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:50:54 +0000] "GET /api/logs/app.log HTTP/1.1" 200 1991 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:51:06.681Z info: HTTP GET /api/logs/combined.log
+2024-07-07T12:51:06.682Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:51:06 +0000] "GET /api/logs/combined.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T12:55:20.815Z info: HTTP GET /api/logs/app.log
+2024-07-07T12:55:20.816Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:12:55:20 +0000] "GET /api/logs/app.log HTTP/1.1" 200 2670 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:04.441Z info: HTTP GET /api/pages
+2024-07-07T13:23:04.445Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:04 +0000] "GET /api/pages HTTP/1.1" 404 148 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:04.447Z info: HTTP GET /api/logs
+2024-07-07T13:23:04.448Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:04 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:04.451Z info: HTTP GET /api/pages
+2024-07-07T13:23:04.451Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:04 +0000] "GET /api/pages HTTP/1.1" 404 148 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:04.454Z info: HTTP GET /api/logs
+2024-07-07T13:23:04.455Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:04 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:08.695Z info: HTTP GET /api/logs/app.log
+2024-07-07T13:23:08.696Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:08 +0000] "GET /api/logs/app.log HTTP/1.1" 200 4282 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:37.552Z info: HTTP GET /api/logs
+2024-07-07T13:23:37.553Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:37 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:37.556Z info: HTTP GET /api/pages
+2024-07-07T13:23:37.557Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:37 +0000] "GET /api/pages HTTP/1.1" 404 148 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:37.559Z info: HTTP GET /api/logs
+2024-07-07T13:23:37.560Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:37 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:23:37.563Z info: HTTP GET /api/pages
+2024-07-07T13:23:37.564Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:23:37 +0000] "GET /api/pages HTTP/1.1" 404 148 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:24:54.572Z info: HTTP GET /api/logs
+2024-07-07T13:24:54.578Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:24:54 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:24:54.583Z info: HTTP GET /api/pages
+2024-07-07T13:24:54.584Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:24:54 +0000] "GET /api/pages HTTP/1.1" 404 148 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:24:54.586Z info: HTTP GET /api/logs
+2024-07-07T13:24:54.587Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:24:54 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:24:54.591Z info: HTTP GET /api/pages
+2024-07-07T13:24:54.593Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:24:54 +0000] "GET /api/pages HTTP/1.1" 404 148 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:30:07.480Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:30:07.481Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:30:07 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:30:07.483Z info: HTTP GET /api/logs
+2024-07-07T13:30:07.486Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:30:07 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:30:21.454Z info: HTTP GET /api/logs
+2024-07-07T13:30:21.454Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:30:21 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:30:21.475Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:30:21.475Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:30:21 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:30:21.482Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:30:21.482Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:30:21 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:30:21.484Z info: HTTP GET /api/logs
+2024-07-07T13:30:21.485Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:30:21 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:30:26.935Z info: HTTP GET /api/logs/combined.log
+2024-07-07T13:30:26.936Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:30:26 +0000] "GET /api/logs/combined.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.101Z info: HTTP GET /api/logs
+2024-07-07T13:36:58.102Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.116Z info: HTTP GET /api/users
+2024-07-07T13:36:58.116Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.131Z info: HTTP GET /api/users
+2024-07-07T13:36:58.132Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.136Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:36:58.136Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.143Z info: HTTP GET /api/logs
+2024-07-07T13:36:58.143Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.147Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:36:58.147Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.303Z info: Fetched all posts with comments
+2024-07-07T13:36:58.304Z info: HTTP GET /api/posts
+2024-07-07T13:36:58.305Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:36:58.310Z info: Fetched all posts with comments
+2024-07-07T13:36:58.311Z info: HTTP GET /api/posts
+2024-07-07T13:36:58.312Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:36:58 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:37:39.362Z info: HTTP GET /api/logs/combined.log
+2024-07-07T13:37:39.363Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:37:39 +0000] "GET /api/logs/combined.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:37:43.549Z info: HTTP GET /api/logs/app.log
+2024-07-07T13:37:43.549Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:37:43 +0000] "GET /api/logs/app.log HTTP/1.1" 200 12520 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:38:46.748Z info: HTTP GET /api/logs/combined.log
+2024-07-07T13:38:46.749Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:38:46 +0000] "GET /api/logs/combined.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:38:49.584Z info: HTTP GET /api/logs/app.log
+2024-07-07T13:38:49.585Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:38:49 +0000] "GET /api/logs/app.log HTTP/1.1" 200 13200 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:30.360Z info: HTTP GET /api/logs
+2024-07-07T13:39:30.361Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:30 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:30.367Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:39:30.368Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:30 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:30.371Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:39:30.372Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:30 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:30.374Z info: HTTP GET /api/logs
+2024-07-07T13:39:30.375Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:30 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:35.959Z info: HTTP GET /api/logs/combined.log
+2024-07-07T13:39:35.960Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:35 +0000] "GET /api/logs/combined.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:38.459Z info: HTTP GET /api/logs/app.log
+2024-07-07T13:39:38.459Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:38 +0000] "GET /api/logs/app.log HTTP/1.1" 200 15184 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:42.209Z info: HTTP GET /api/logs/error.log
+2024-07-07T13:39:42.209Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:42 +0000] "GET /api/logs/error.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:43.827Z info: HTTP GET /api/logs/
+2024-07-07T13:39:43.828Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:43 +0000] "GET /api/logs/ HTTP/1.1" 200 38 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:45.290Z info: HTTP GET /api/logs/app.log
+2024-07-07T13:39:45.291Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:45 +0000] "GET /api/logs/app.log HTTP/1.1" 200 16178 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.340Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:39:55.341Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.342Z info: HTTP GET /api/logs
+2024-07-07T13:39:55.343Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.346Z info: HTTP GET /api/users
+2024-07-07T13:39:55.347Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.351Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:39:55.352Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.360Z info: HTTP GET /api/users
+2024-07-07T13:39:55.361Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.362Z info: HTTP GET /api/logs
+2024-07-07T13:39:55.363Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.367Z info: Fetched all posts with comments
+2024-07-07T13:39:55.370Z info: HTTP GET /api/posts
+2024-07-07T13:39:55.371Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:39:55.378Z info: Fetched all posts with comments
+2024-07-07T13:39:55.380Z info: HTTP GET /api/posts
+2024-07-07T13:39:55.381Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:39:55 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:43:28.316Z info: HTTP GET /api/logs
+2024-07-07T13:43:28.316Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:43:28 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:43:28.320Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:43:28.321Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:43:28 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:43:28.323Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:43:28.324Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:43:28 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:43:28.325Z info: HTTP GET /api/logs
+2024-07-07T13:43:28.326Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:43:28 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:44:25.823Z info: HTTP GET /api/logs/combined.log
+2024-07-07T13:44:25.823Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:44:25 +0000] "GET /api/logs/combined.log HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:44:27.981Z info: HTTP GET /api/logs/app.log
+2024-07-07T13:44:27.982Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:44:27 +0000] "GET /api/logs/app.log HTTP/1.1" 200 20870 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.814Z info: HTTP GET /api/logs
+2024-07-07T13:48:06.815Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.823Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:48:06.824Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.829Z info: HTTP GET /api/users
+2024-07-07T13:48:06.830Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.838Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:48:06.839Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.843Z info: HTTP GET /api/logs
+2024-07-07T13:48:06.844Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.852Z info: HTTP GET /api/users
+2024-07-07T13:48:06.853Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.855Z info: Fetched all posts with comments
+2024-07-07T13:48:06.857Z info: HTTP GET /api/posts
+2024-07-07T13:48:06.859Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:06.866Z info: Fetched all posts with comments
+2024-07-07T13:48:06.868Z info: HTTP GET /api/posts
+2024-07-07T13:48:06.869Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:06 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.068Z info: HTTP GET /api/logs
+2024-07-07T13:48:24.068Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.070Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:48:24.071Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.081Z info: HTTP GET /api/users
+2024-07-07T13:48:24.082Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.087Z info: HTTP GET /api/users
+2024-07-07T13:48:24.087Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.091Z info: HTTP GET /api/fetchAllPages
+2024-07-07T13:48:24.091Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.093Z info: HTTP GET /api/logs
+2024-07-07T13:48:24.093Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/logs HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.094Z info: Fetched all posts with comments
+2024-07-07T13:48:24.095Z info: HTTP GET /api/posts
+2024-07-07T13:48:24.096Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T13:48:24.099Z info: Fetched all posts with comments
+2024-07-07T13:48:24.100Z info: HTTP GET /api/posts
+2024-07-07T13:48:24.100Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:13:48:24 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.530Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:09:29.534Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.546Z info: HTTP GET /api/users
+2024-07-07T14:09:29.547Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.550Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:09:29.551Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.555Z info: HTTP GET /api/comments
+2024-07-07T14:09:29.556Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.562Z info: HTTP GET /api/users
+2024-07-07T14:09:29.562Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.583Z info: HTTP GET /api/comments
+2024-07-07T14:09:29.584Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.598Z info: Fetched all posts with comments
+2024-07-07T14:09:29.599Z info: HTTP GET /api/posts
+2024-07-07T14:09:29.600Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:29.605Z info: Fetched all posts with comments
+2024-07-07T14:09:29.607Z info: HTTP GET /api/posts
+2024-07-07T14:09:29.608Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:29 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.081Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:09:49.082Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.088Z info: HTTP GET /api/comments
+2024-07-07T14:09:49.088Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.089Z info: Fetched all posts with comments
+2024-07-07T14:09:49.091Z info: HTTP GET /api/posts
+2024-07-07T14:09:49.092Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.097Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:09:49.098Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.100Z info: HTTP GET /api/getAllUsers
+2024-07-07T14:09:49.101Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/getAllUsers HTTP/1.1" 404 154 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.102Z info: HTTP GET /api/comments
+2024-07-07T14:09:49.103Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.106Z info: HTTP GET /api/getAllUsers
+2024-07-07T14:09:49.106Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/getAllUsers HTTP/1.1" 404 154 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:49.110Z info: Fetched all posts with comments
+2024-07-07T14:09:49.111Z info: HTTP GET /api/posts
+2024-07-07T14:09:49.112Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:49 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.068Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:09:56.069Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.074Z info: HTTP GET /api/comments
+2024-07-07T14:09:56.074Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.075Z info: Fetched all posts with comments
+2024-07-07T14:09:56.076Z info: HTTP GET /api/posts
+2024-07-07T14:09:56.077Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.080Z info: HTTP GET /api/users
+2024-07-07T14:09:56.081Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.084Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:09:56.085Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.088Z info: HTTP GET /api/comments
+2024-07-07T14:09:56.090Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.094Z info: HTTP GET /api/users
+2024-07-07T14:09:56.095Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:09:56.098Z info: Fetched all posts with comments
+2024-07-07T14:09:56.099Z info: HTTP GET /api/posts
+2024-07-07T14:09:56.099Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:09:56 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:31.977Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:10:31.978Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:31 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:31.982Z info: HTTP GET /api/comments
+2024-07-07T14:10:31.983Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:31 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:31.988Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:10:31.989Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:31 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:31.992Z info: HTTP GET /api/users
+2024-07-07T14:10:31.993Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:31 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:31.997Z info: HTTP GET /api/comments
+2024-07-07T14:10:31.997Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:31 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:32.000Z info: HTTP GET /api/users
+2024-07-07T14:10:32.000Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:32 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:32.001Z info: Fetched all posts with comments
+2024-07-07T14:10:32.002Z info: HTTP GET /api/posts
+2024-07-07T14:10:32.004Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:32 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:10:32.010Z info: Fetched all posts with comments
+2024-07-07T14:10:32.011Z info: HTTP GET /api/posts
+2024-07-07T14:10:32.012Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:10:32 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.916Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:11:18.916Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.921Z info: HTTP GET /api/comments
+2024-07-07T14:11:18.922Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.923Z info: Fetched all posts with comments
+2024-07-07T14:11:18.924Z info: HTTP GET /api/posts
+2024-07-07T14:11:18.924Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.928Z info: HTTP GET /api/users
+2024-07-07T14:11:18.929Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.931Z info: HTTP GET /api/fetchAllPages
+2024-07-07T14:11:18.932Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/fetchAllPages HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.935Z info: HTTP GET /api/users
+2024-07-07T14:11:18.936Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/users HTTP/1.1" 403 9 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.937Z info: HTTP GET /api/comments
+2024-07-07T14:11:18.937Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/comments HTTP/1.1" 404 151 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+2024-07-07T14:11:18.939Z info: Fetched all posts with comments
+2024-07-07T14:11:18.940Z info: HTTP GET /api/posts
+2024-07-07T14:11:18.941Z info: ::ffff:127.0.0.1 - - [07/Jul/2024:14:11:18 +0000] "GET /api/posts HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"

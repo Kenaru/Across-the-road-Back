@@ -1,6 +1,7 @@
+// verifyToken.js
+
 const jwt = require('jsonwebtoken');
 
-// Middleware pour vérifier le token JWT
 const verifyToken = (req, res, next) => {
     // Récupérer le token de l'en-tête Authorization
     const token = req.headers.authorization;
