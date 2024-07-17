@@ -34,7 +34,7 @@ exports.register_user = async (req, res) => {
     }
 
     if (!birthdate) {
-        console.log('birthdate is required.');
+        console.log('Birthdate is required.');
         return res.status(400).json({ success: false, message: 'La date de naissance est obligatoire.' });
     }
 
@@ -185,12 +185,12 @@ exports.update_profile = async (req, res) => {
     }
 
     // Convert birthdate to YYYY-MM-DD format
-    const formattedbirthdate = formatDate(birthdate);
+    const formattedBirthdate = formatDate(birthdate);
 
     try {
         console.log('Updating profile for user ID:', userId);
         const query = 'UPDATE users SET last_name = ?, first_name = ?, birthdate = ?, email = ?, phone = ? WHERE id = ?';
-        const values = [last_name, first_name, formattedbirthdate, email, phone, userId];
+        const values = [last_name, first_name, formattedBirthdate, email, phone, userId];
 
         console.log('Executing query:', query);
         console.log('With values:', values);
